@@ -10,5 +10,4 @@ void print_alphabet(void)
 	{
 		printf("%c", i);
 	}
-	printf("\n");
 }
