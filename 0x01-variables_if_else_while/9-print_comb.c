@@ -4,6 +4,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+
+/**
+ * main - prints combinations of single digit numbers
+ * number stored in the variable n
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int i;
