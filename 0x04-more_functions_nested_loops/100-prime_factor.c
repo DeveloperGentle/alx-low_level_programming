@@ -26,5 +26,4 @@ void prime_factor(void)
 		largest_prime = num;
 	}
 	printf("%lld\n", largest_prime);
-	return 0;
 }
