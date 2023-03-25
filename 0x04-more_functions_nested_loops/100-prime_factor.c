@@ -6,8 +6,8 @@
 */
 void prime_factor(void)
 {
-	long long int num = 612852475143;
-	long long int i, largest_prime = -1;
+	long int num = 612852475143;
+	long int i, largest_prime = -1;
 	while (num % 2 == 0)
 	{
 		largest_prime = 2;
@@ -25,5 +25,5 @@ void prime_factor(void)
 	{
 		largest_prime = num;
 	}
-	printf("%lld\n", largest_prime);
+	printf("%ld\n", largest_prime);
 }
